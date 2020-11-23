@@ -1,0 +1,74 @@
+html{font-size: 11.76470588235vw; }
+html,body{display: flex; flex-direction: column; height: 100%;}
+/***************************************************** 头部开始 #header *****************************************************/
+#header{ width: 8.50rem; height: 1.06rem; background-color: #1296db; display: flex; justify-content: space-between;}
+
+#header .logo{ display: flex; align-items: center;}
+#header .logo img{height: .86rem; margin-left: .2rem;}
+#header .logo span{ font: .6rem/1.06rem '宋体'; color: #fff; margin-left: .1rem;}
+
+#header .RongQi{ display: flex; align-items: center;}
+#header .RongQi .souSuo{ display: flex; margin-right: .4rem;}
+#header .RongQi .souSuo img{ height: .6rem;}
+
+#header .RongQi .LiShi{ display: flex;}
+#header .RongQi .LiShi img{ height: .6rem; margin-right: .2rem;}
+/**************************************************** 头部结束 #header ****************************************************/
+
+/**************************************************** 内容开始 #case ****************************************************/
+#case{ display: flex; flex-direction: column;  flex: 1; overflow-y: auto; background-color: #f5f5f5;}
+
+/* 轮播图 */
+#case .rotation{ height: 4.3rem; width: 8.5rem; background-color: #ddd;}
+#case .rotation img{ height: 4.3rem; width: 8.5rem;}
+
+/* 推荐 */
+#case .recommend{ margin-top: .2rem; display: flex; flex-direction: column; border-top: .02rem solid #aaa; border-bottom: .02rem solid #aaa; background-color: #fff;}
+#case .recommend .H5{display: flex; justify-content: space-between;}
+#case .recommend .H5 s{ height: .25rem; width: .15rem; background: url(../images/ud/arrow_right.png) no-repeat center; background-size: .15rem .25rem; margin: .38rem .28rem 0 0;}
+#case .recommend h5{ display: flex; font: 600 .36rem/1.02rem ''; color: #000;}
+#case .recommend h5 b{ margin: .28rem; height: .4rem; width: .4rem; background: url(../images/ud/index_title_1.png) no-repeat center; background-size: .4rem .4rem;}
+#case .recommend:nth-child(3) h5 b{ background: url(../images/ud/index_title_5.png) no-repeat center; background-size: .4rem .4rem;}
+#case .recommend:nth-child(4) h5 b{ background: url(../images/ud/index_title_4.png) no-repeat center; background-size: .4rem .4rem;}
+#case .recommend:nth-child(5) h5 b{ background: url(../images/ud/index_title_2.png) no-repeat center; background-size: .4rem .4rem;}
+#case .recommend:nth-child(6) h5 b{ background: url(../images/ud/index_title_6.png) no-repeat center; background-size: .4rem .4rem;}
+#case .recommend .MuanHua{ display: flex; flex-wrap: wrap; justify-content: space-evenly;}
+#case .recommend .MuanHua li a{ display: flex; flex-direction: column;}
+#case .recommend .MuanHua li a img{height: 3.78rem; width: 2.54rem; border: .01rem solid #ddd;} 
+#case .recommend .MuanHua li a span{ font: .32rem/.93rem ''; color: #333; text-align: center;}
+
+#case .jieShao{ display: flex; flex-direction: column; margin-top: .2rem; padding: 0 .1rem; border-top: .05rem solid #f33e51;}
+#case .jieShao span{ text-indent: 2em; font: .28rem/2 ''; color: #666; text-align: center;}
+#case .jieShao p{  font: .28rem/2 ''; color: #666; text-align: center;}
+#case .jieShao p a{ color: #f33e51;}
+/**************************************************** 内容结束 #case ****************************************************/
+
+/**************************************************** 菜单选项开始 #footer ****************************************************/
+#footer{ position: relative; width: 8.50rem;  height: 1.5rem; background-color: #fff; border-top: .01rem solid #aaa; bottom: 0; left: 0;}
+#footer ul{ display: flex; justify-content: space-around;}
+#footer ul li{display: flex; height: 1.5rem; align-items: center;}
+#footer ul li a{display: flex; flex-direction: column;}
+#footer ul li b{height: .6rem; width: .6rem;}
+#footer ul li:nth-child(1) b{background: url(../images/icon_mpw225y3a3b/tuijian.png) no-repeat center; background-size: .6rem .6rem;}
+#footer ul li:nth-child(2) b{background: url(../images/icon_mpw225y3a3b/iconfontfaxian.png) no-repeat center; background-size: .6rem .6rem;}
+#footer ul li:nth-child(3) b{background: url(../images/icon_mpw225y3a3b/shujia.png) no-repeat center; background-size: .6rem .6rem;}
+#footer ul li:nth-child(4) b{background: url(../images/icon_mpw225y3a3b/wode.png) no-repeat center; background-size: .6rem .6rem;}
+#footer ul li span{ margin-top: .1rem; font: .16rem/2 ''; text-align: center; color: #707070;}
+
+#footer ul li:nth-child(1) a:hover b{background: url(../images/icon_2vid6jws9mu/tuijian.png) no-repeat center; background-size: .6rem .6rem;}
+#footer ul li:nth-child(2) a:hover b{background: url(../images/icon_2vid6jws9mu/iconfontfaxian.png) no-repeat center; background-size: .6rem .6rem;}
+#footer ul li:nth-child(3) a:hover b{background: url(../images/icon_2vid6jws9mu/shujia.png) no-repeat center; background-size: .6rem .6rem;}
+#footer ul li:nth-child(4) a:hover b{background: url(../images/icon_2vid6jws9mu/wode.png) no-repeat center; background-size: .6rem .6rem;}
+#footer ul li a:hover span{ color: #1296db;}
+
+/**************************************************** 菜单选项结束 #footer ****************************************************/
+
+
+
+
+
+
+
+
+
+

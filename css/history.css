@@ -1,0 +1,56 @@
+html{font-size: 11.76470588235vw; }
+html,body{display: flex; flex-direction: column; height: 100%;}
+
+/************************************************** 头部 .header 开始 **************************************************/
+#header{ height: 1.06rem; width: 100%; position: relative; border-bottom: .02rem solid #ddd;}
+#header .xuanXiang{ font: .32rem/1.06rem ''; color: #999; height: 1.06rem; display: flex; justify-content: space-evenly; align-items: center;}
+#header .xuanXiang span:nth-child(1){ font: 600 .32rem/1.06rem ''; color: #333; border-bottom: .04rem solid #333;}
+#header p{ position: absolute; right: .25rem; top: 0; font: 600 .32rem/1.06rem ''; color: #333;}
+
+/************************************************** 头部 .header 结束 **************************************************/
+
+/************************************************** 目录 #catalog(追漫) 开始 **************************************************/
+#catalog{ flex: 1; display: flex; overflow-y: auto;}
+#catalog ul{ display: flex; flex-wrap: wrap;}
+#catalog ul li{ margin: .36rem 0 0 .22rem;}
+#catalog ul li a{display: flex; flex-direction: column;}
+#catalog ul li a img{ height: 3.76rem; width: 2.48rem; border: .01rem solid #ddd;}
+#catalog ul li a span{ font: .32rem/.63rem ''; color: #333; text-align: center;}
+#catalog ul p{ position: relative; display: flex; justify-content: center; align-items: center; margin: .36rem 0 .1rem .22rem; height: 3.76rem; width: 2.48rem; border: .01rem solid rgba(18, 150, 219, .5);}
+#catalog ul p s{ height: 1rem; width: 1rem; background: url(../images/jia.png) no-repeat center; background-size: 1rem 1rem;}
+#catalog ul p b{ position: absolute; top: 0; left: 0; bottom: 0; right: 0; margin: auto; background: rgba(18, 150, 219, .1);}
+/************************************************** 目录 #catalog(追漫) 结束 **************************************************/
+
+/************************************************** 目录 #muLu(历史) 开始 **************************************************/
+#muLu{ flex: 1; display: flex; flex-direction: column; overflow-y: auto;}
+#muLu ul{display: flex; flex-direction: column; margin: .18rem 0;}
+#muLu ul li{ display: flex; flex-direction: column; height: 1.76rem; margin: .18rem .22rem;}
+#muLu ul li a{ display: flex;}
+#muLu ul li a img{ height: 1.76rem; margin-right: .22rem;}
+#muLu ul li a .P{ display: flex;flex: 1; justify-content: space-between; align-items: center;}
+#muLu ul li a .P p{ display: flex; flex-direction: column; height: 1.76rem; }
+#muLu ul li a .P p span{ font: 600 .3rem/.7rem ''; color: #333;}
+#muLu ul li a .P p b{ font: .26rem; color: #999;}
+#muLu ul li a .P s{ width: 1.2rem; font: .28rem/.6rem ''; text-align: center; color: #1296db; height: .6rem; border: .01rem solid #1296db; border-radius: .3rem;}
+/************************************************** 目录 #muLu(历史) 结束 **************************************************/
+
+/**************************************************** 菜单选项开始 #footer ****************************************************/
+#footer{ position: relative; width: 100%;  height: 1.5rem; background-color: #fff; border-top: .01rem solid #ddd; bottom: 0; left: 0;}
+#footer ul{ display: flex; justify-content: space-around;}
+#footer ul li{display: flex; height: 1.5rem; align-items: center;}
+#footer ul li a{display: flex; flex-direction: column;}
+#footer ul li b{height: .6rem; width: .6rem;}
+#footer ul li:nth-child(1) b{background: url(../images/icon_mpw225y3a3b/tuijian.png) no-repeat center; background-size: .6rem .6rem;}
+#footer ul li:nth-child(2) b{background: url(../images/icon_mpw225y3a3b/iconfontfaxian.png) no-repeat center; background-size: .6rem .6rem;}
+#footer ul li:nth-child(3) b{background: url(../images/icon_mpw225y3a3b/shujia.png) no-repeat center; background-size: .6rem .6rem;}
+#footer ul li:nth-child(4) b{background: url(../images/icon_mpw225y3a3b/wode.png) no-repeat center; background-size: .6rem .6rem;}
+#footer ul li span{ margin-top: .1rem; font: .16rem/2 ''; text-align: center; color: #707070;}
+
+#footer ul li:nth-child(1) a:hover b{background: url(../images/icon_2vid6jws9mu/tuijian.png) no-repeat center; background-size: .6rem .6rem;}
+#footer ul li:nth-child(2) a:hover b{background: url(../images/icon_2vid6jws9mu/iconfontfaxian.png) no-repeat center; background-size: .6rem .6rem;}
+#footer ul li:nth-child(3) a:hover b{background: url(../images/icon_2vid6jws9mu/shujia.png) no-repeat center; background-size: .6rem .6rem;}
+#footer ul li:nth-child(4) a:hover b{background: url(../images/icon_2vid6jws9mu/wode.png) no-repeat center; background-size: .6rem .6rem;}
+#footer ul li a:hover span{ color: #1296db;}
+
+/**************************************************** 菜单选项结束 #footer ****************************************************/
+

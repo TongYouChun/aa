@@ -1,0 +1,97 @@
+html{ font-size: 9.2592592vw;}
+html,body{display: flex; flex-direction: column; height: 100%;}
+/***************************************************** 头部开始 #header *****************************************************/
+#header{ width: 10.8rem; height: 1.36rem; background-color: #1296db; display: flex; justify-content: space-between;}
+
+#header .logo{ display: flex; align-items: center;}
+#header .logo img{height: 1.16rem; margin-left: .3rem;}
+#header .logo span{ font: .72rem/1.36rem '宋体'; color: #fff; margin-left: .1rem;}
+
+#header .RongQi{ display: flex; align-items: center;}
+#header .RongQi .souSuo{ display: flex; margin-right: .4rem;}
+#header .RongQi .souSuo img{ height: .7rem;}
+
+#header .RongQi .LiShi{ display: flex;}
+#header .RongQi .LiShi img{ height: .7rem; margin-right: .3rem;}
+/**************************************************** 头部结束 #header ****************************************************/
+
+/**************************************************** 详细内容 .case 开始 *********************************************/
+#case{ display: flex; flex-direction: column; flex: 1; background: #f5f5f5; overflow-y: auto;}
+
+/* 介绍*阅读 .Introduce 开始 */
+#case .Introduce{ display: flex; flex-direction: column;}
+/* 详细 .Name */
+#case .Introduce .Name{ background: #fff; padding: .66rem 0 .8rem 0; display: flex; border-bottom: .02rem solid #ddd; }
+#case .Introduce .Name .Img{ margin-left: .5rem; width: 3.65rem; height: 5.06rem;}
+#case .Introduce .Name .Img img{  width: 3.65rem; height: 5.06rem; border-radius: .2rem;}
+#case .Introduce .Name .JieShao{ margin-left: .5rem; display: flex; flex-direction: column;}
+#case .Introduce .Name .JieShao h6{ font: 600 .46rem/1.22rem ''; color: #000;}
+#case .Introduce .Name .JieShao p:nth-child(2){ font: .38rem/.57rem '微软雅黑'; color: #e55f5e;}
+#case .Introduce .Name .JieShao p:nth-child(3) { font: .4rem/.94rem '微软雅黑'; color: #666; }
+#case .Introduce .Name .JieShao p:nth-child(4) { font: .4rem/.57rem '微软雅黑'; color: #666;}
+#case .Introduce .Name .JieShao p:nth-child(5) { font: .4rem/.92rem '微软雅黑'; color: #666;}
+#case .Introduce .Name .JieShao p:nth-child(6) { font: .38rem/.6rem '微软雅黑'; color: #e55f5e;}
+/* 阅读 .Read */
+#case .Introduce .Read{ background: #fff; display: flex; flex-direction: column; border-bottom: .02rem solid #ddd;}
+#case .Introduce .Read .yueDu{ margin: .26rem 0 .35rem 0; display: flex; justify-content: space-evenly;}
+#case .Introduce .Read .yueDu a{ display: flex; justify-content: center; align-items: center; width: 4.96rem; height: 1.2rem; border-radius: .1rem; font: .46rem/1.2rem ''; color: #fff; text-align: center; }
+#case .Introduce .Read .yueDu a b{ margin-right: .1rem; height: .62rem; width: .62rem; background: url( ../images/ty/dianping.png) no-repeat center; background-size: .62rem .62rem;}
+#case .Introduce .Read .yueDu a:nth-child(1){ background: #ec4646;}
+#case .Introduce .Read .yueDu a:nth-child(2){ background: #2ebbff;}
+#case .Introduce .Read .jieShao{ display: flex; flex-direction: column;}
+#case .Introduce .Read .jieShao p{ padding: 0 .2rem; text-indent: 2em; font: .35rem/.64rem ''; color: #666;}
+#case .Introduce .Read .jieShao b{ align-self: center; margin: .1rem 0; height: .24rem; width: .5rem; background: url(../images/ty/arrow_right.png) no-repeat center; background-size: .5rem .26rem;}
+/* 介绍*阅读 .Introduce 开始 */
+
+/* 目录 .catalog 开始 */
+#case .Catalog{ background: #fff; display: flex; flex-direction: column; background: #fff; margin-top: .16rem; border-top: .02rem solid #ddd; border-bottom: .02rem solid #ddd;}
+#case .Catalog .h4{ display: flex; justify-content: space-evenly; height: 1.14rem; width: 10.8rem;  border-bottom: .02rem solid #ddd; }
+#case .Catalog .h4 span{width: 2rem; text-align: center; font: .46rem/1.14rem '';}
+#case .Catalog .h4 span:nth-child(1){border-bottom: .04rem solid #333; color: #333; font: 600 .46rem/1.14rem '';}
+#case .Catalog ul{ display: flex; flex-wrap: wrap; }
+#case .Catalog ul li{ margin: .4rem 0 0 .28rem; text-align: center; font: .38rem/.86rem ''; color: #666; padding: 0 .15rem; height: .86rem; white-space:nowrap; text-overflow:ellipsis; width: 2.02rem; border: .01rem solid #ddd; border-radius: .1rem;}
+#case .Catalog p{ align-self: center; margin: .48rem 0 .32rem 0; height: .8rem; width: 2.1rem; font: .38rem/.8rem ''; text-align: center; color: #666; border: .01rem solid #ddd; border-radius: .4rem;}
+
+/* 目录 .catalog 结束 */
+
+/* 推荐 .recommend 开始 */
+#case .recommend{ margin-top: .14rem; display: flex; flex-direction: column; border-top: .02rem solid #ddd; border-bottom: .02rem solid #ddd; background-color: #fff;}
+#case .recommend .H5{display: flex; justify-content: space-between;}
+#case .recommend .H5 s{ height: .32rem; width: .16rem; background: url(../images/ud/arrow_right.png) no-repeat center; background-size: .16rem .32rem; margin: .46rem .34rem 0 0;}
+#case .recommend h5{ display: flex; font: 600 .44rem/1.3rem ''; color: #000;}
+#case .recommend h5 b{ margin: .34rem .26rem 0 .26rem; height: .56rem; width: .56rem; background: url(../images/ud/index_title_1.png) no-repeat center; background-size: .56rem .56rem;}
+#case .recommend .MuanHua{ display: flex; flex-wrap: wrap; justify-content: space-evenly;}
+#case .recommend .MuanHua li a{ display: flex; flex-direction: column;}
+#case .recommend .MuanHua li a img{height: 4.82rem; width: 3.2rem; border: .01rem solid #ddd;} 
+#case .recommend .MuanHua li a span{ font: .40rem/1.14rem ''; color: #555; text-align: center;}
+/* 推荐 .recommend 结束 */
+
+#case .jieShao{ display: flex; flex-direction: column; margin-top: .25rem; padding: .38rem .34rem .14rem .34rem; border-top: .05rem solid #f33e51;}
+#case .jieShao span{ text-indent: 2em; font: .32rem/.58rem ''; color: #666; text-align: center;}
+#case .jieShao p{  font: .32rem/.58rem ''; color: #666; text-align: center;}
+#case .jieShao p a{ color: #f33e51;}
+
+/**************************************rem************** 详细内容 .case 结束 **********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
